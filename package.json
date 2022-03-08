@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/interface",
   "description": "Uniswap Interface",
-  "homepage": ".",
+  "homepage": "https://darrenli6.github,io/interface",
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
@@ -93,6 +93,7 @@
     "@walletconnect/web3-provider": "1.1.1-alpha.0"
   },
   "scripts": {
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
